@@ -12,7 +12,7 @@ class Menu
 
   def read
     @dishes.each do | dish |
-      puts "#{dish.line}"
+      dish.line
     end
   end
 end

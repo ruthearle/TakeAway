@@ -1,10 +1,12 @@
 class LineItem
 
-  def add(dish)
-    @dish = dish
-  end
+	def initialize(dish, quantity)
+		@dish     = dish
+		@quantity = quantity
+	end
 
-  def quantity
-    1
-  end
+	def item_total
+		@dish.price * @quantity
+	end
+
 end

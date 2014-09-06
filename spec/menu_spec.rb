@@ -17,7 +17,10 @@ describe Menu do
   it 'can read the dishes' do
     dish_2 = double(:dish)
     menu.add(dish_2)
+    
+    expect(menu.dishes).to receive(:each).and_yield(dish_2)
     expect(dish_2).to receive(:line)
-    expect(menu.read).to eq [dish_2]
+
+    menu.read
   end
 end
