@@ -1,8 +1,8 @@
 class Customer
 
 
-	def initialize(name: "Ruth", mobile: "07403454945")
-		@name = name
+	def initialize(name: "Ruth", mobile: +447403454945)
+		@name   = name
 		@mobile = mobile
 	end
 
