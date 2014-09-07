@@ -16,7 +16,7 @@ describe LineItem do
 	end
 
 	it 'calculates the total' do
-		beef  = double :dish, price: 3
+		beef = double :dish, price: 3
 		beefs = LineItem.new(beef, 3)
 		expect(beefs.item_total).to eq 9.00
 	end

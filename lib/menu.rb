@@ -15,4 +15,4 @@ class Menu
       dish.line
     end
   end
-end        
+end
