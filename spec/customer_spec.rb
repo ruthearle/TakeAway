@@ -14,12 +14,12 @@ describe Customer do
   end
 
   it 'has a default mobile phone number' do
-    expect(customer.mobile_number).to eq "07403454945"
+    expect(customer.mobile_number).to eq(+447403454945)
   end
 
   it 'can be set with a mobile phone number' do
-  	customer = Customer.new(:mobile => "07472574252")
-  	expect(customer.mobile_number).to eq "07472574252"
+  	customer = Customer.new(:mobile => +447472574252)
+  	expect(customer.mobile_number).to eq(+447472574252)
   end
 
 end
