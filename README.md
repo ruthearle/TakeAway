@@ -7,7 +7,6 @@ delivery time.
 The program makes use of Twilio API.
 
 ###`Customer` Class
-This class has two functions: Customer name and Customer mobile number.
 
 **Collaborators**|**Responsibilities**
 | -------------- | ----------------- |
@@ -15,4 +14,7 @@ This class has two functions: Customer name and Customer mobile number.
 |`TakeAway`      | To have a number  |
 
 ###`Dish` Class
-This classlk
+
+**Collaborators**|**Responsibilities**
+| -------------- | ----------------- |
+
