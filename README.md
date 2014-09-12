@@ -9,10 +9,15 @@ The program makes use of Twilio API.
 ###`Customer` Class
 This class has two functions: Customer name and Customer mobile number.
 
-**Collaborators**| |**Responsibilities**
-| -------------- | | ----------------- |
-|`Order`         | | To have a name    |
-|`TakeAway`      | | To have a number  |
+**Collaborators**|
+| -------------- |
+|`Order`         |
+|`TakeAway`      |
+
+|**Responsibilities**|
+| ------------------ |
+| To have a name     |
+| To have a mobile number|
 
 ###`Dish` Class
 This classlk
