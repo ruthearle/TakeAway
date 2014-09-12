@@ -10,7 +10,7 @@ The program makes use of Twilio API.
 This class has two functions: Customer name and Customer mobile number.
 
 **Collaborators**| |**Responsibilities**
-| -------------- |-| ----------------- |
+| -------------- | | ----------------- |
 |`Order`         | | To have a name    |
 |`TakeAway`      | | To have a number  |
 
