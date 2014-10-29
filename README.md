@@ -10,7 +10,7 @@ The program makes use of Twilio API.
 
 **Collaborators**|**Responsibilities**
 | -------------- | ----------------- |
-|`#Order`, `#TakeAway` | To have a name, o have a number |
+|`#Order`, `#TakeAway` | To have a name, to have a number |
 
 
 ####`Dish` Class
