@@ -24,9 +24,9 @@ The program makes use of Twilio API.
 
 **Collaborators**|**Responsibilities**
 | -------------- | ----------------- |
-|`#Dish`         | To have a dish    |
-|`#Order`        | To know the quantity of dishes required |
-                 | To know the total cost of the quantity of dishes |
+|`#Dish`         | To have a dish, to know the quantity of dishes required, to know the total cost of the quantity of dishes.
+|`#Order`        | 
+                 | 
 
 ####`Menu` Class
 
