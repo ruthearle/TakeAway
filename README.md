@@ -10,15 +10,15 @@ The program makes use of Twilio API.
 
 **Collaborators**|**Responsibilities**
 | -------------- | ----------------- |
-|`#Order`         | To have a name    |
-|`#TakeAway`      | To have a number  |
+|`#Order`, `#TakeAway` | To have a name, o have a number |
+
 
 ####`Dish` Class
 
 **Collaborators**|**Responsibilities**
 | -------------- | ----------------- |
-|`#Menu`          | To have a name    |
-|`#LineItem`      | To have a price   |
+|`#Menu`, `#LineItem` | To have a name, to have a price |
+
 
 ####`LineItem` Class
 
@@ -31,29 +31,27 @@ The program makes use of Twilio API.
 
 **Collaborators**|**Responsibilities**
 | -------------- | ----------------- |
-|`#Dish`         | Stores a number of dishes |
-|                | Can display all dishes stored |
+|`#Dish`         | Stores a number of dishes, can display all dishes stored |
+
 
 ####`Message` Class
 
 **Collaborators**|**Responsibilities**
 | -------------- | ----------------- |
-|`#Customer`     | Send a sms to the customer with order details and time of delivery |
-|`#TakeAway`     |
+|`#Customer`, `#TakeAway` | Send a sms to the customer with order details and time of delivery |
+
 
 ####`Order` Class
 
 **Collaborators**|**Responsibilities**
 | -------------- | ----------------- |
-|`#LineItem`     | Can store items   |
-|                | Can calculate the grand total of an order |
+|`#LineItem`     | Can store items, can calculate the grand total of an order |
+
 
 ####`TakeAway` Class
 
 **Collaborators**|**Responsibilities**
 | -------------- | ----------------- |
-|`#Menu`         | Can have a menu of dishes |
-|`#Customer`     | Can take an order from a customer |
-|`#Order`        | Sends a sms to the customer
-|`#Message`      |
+|`#Menu`, `#Customer`, `#Order`, `#Message` | Can have a menu of dishes, can take an order from a customer, sends a sms to the customer  |
+
 
