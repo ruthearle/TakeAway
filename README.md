@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/repos/54539bc2e30ba06156001fa4/badges/795809320ec517825d60/gpa.svg)](https://codeclimate.com/repos/54539bc2e30ba06156001fa4/feed)
+
 | [*Makers Academy*](http://www.makersacademy.com) | Week 4 |
 | ------------------------------------------------ | ------ |
 
